@@ -1,0 +1,112 @@
+(footprint "BatteryConnector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.5 7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3e5ae1f5-42ad-40f3-a784-b100fe3876b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BatteryConnector"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8aed34f-f966-4feb-9598-4ecc1768f2b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bec1902e-468c-48bd-8261-a50b63fde5cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "782c8007-4f3d-4535-9229-6e1605837e19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "-"
+		(at 4 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "53c41c3b-d07a-4615-b87b-c2ed66ea53cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -7.5 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6fda63ea-e17e-4885-bd4b-a2ae94ac3d86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52bf6c92-8bb4-494a-adbc-5db7fbebe871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71462499-7a09-468a-a0a1-d9655155699b")
+	)
+	(pad "2" thru_hole circle
+		(at 3 5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6d797f9-3ebe-4f96-b355-ce9b0ff91040")
+	)
+	(embedded_fonts no)
+)
